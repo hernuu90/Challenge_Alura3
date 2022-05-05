@@ -1,0 +1,13 @@
+@media screen and (min-width: 0px){
+    .acerca__bloque{
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .acerca__bloque{
+        margin: 1rem 10vw 0 10vw;
+        width: 78.88vw;
+    }
+}

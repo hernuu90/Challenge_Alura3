@@ -1,0 +1,25 @@
+.acerca{
+    background: var(--background-caqui);
+    display: flex;
+}
+
+@media screen and (min-width: 0px){
+    .acerca{
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .acerca{
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .acerca{
+        padding: 4rem 0;
+    }
+}
+
+
+

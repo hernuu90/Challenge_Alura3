@@ -1,0 +1,13 @@
+@media screen and (min-width: 0px){
+    .experiencia__bloque{
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .experiencia__bloque{
+        margin: 5.5rem 10.56vw 0 10.56vw;
+        width: 78.88vw;
+    }
+}

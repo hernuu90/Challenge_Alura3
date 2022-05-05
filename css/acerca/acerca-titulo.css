@@ -1,0 +1,29 @@
+.acerca__titulo{
+    color: var(--color-oscuro);
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: -2rem;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 0px){
+    .acerca__titulo{
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .acerca__titulo{
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .acerca__titulo{
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+}

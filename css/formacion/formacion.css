@@ -1,0 +1,15 @@
+.formacion{
+    background: var(--background-caqui);
+}
+
+@media screen and (min-width: 0px){
+    .formacion{
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .formacion{
+        padding: 5.125rem 0;
+    }
+}

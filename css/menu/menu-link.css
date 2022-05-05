@@ -1,0 +1,9 @@
+.menu__link{
+    color: var(--color-oscuro);
+    text-decoration: none;
+}
+
+.menu__link:hover{
+    color: var(--marron-suave);
+    text-decoration: underline;
+}

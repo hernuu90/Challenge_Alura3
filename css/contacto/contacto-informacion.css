@@ -1,0 +1,25 @@
+.contacto__informacion .contacto__campo{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__informacion .contacto__error{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 0px){
+    .contacto__informacion{
+        margin-top: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .contacto__informacion{
+        margin-top: 4rem;
+        width: 45.56vw;
+    }
+}

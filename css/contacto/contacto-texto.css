@@ -1,0 +1,35 @@
+.contacto__texto--asunto, 
+.contacto__texto--email, 
+.contacto__texto--mensaje,
+.contacto__texto--nombre
+{
+    color: var(--sombra-letra);
+    font-size: 1rem;
+    font-weight: 400;
+    left: .75rem; 
+    line-height: 1.25rem;
+    position: absolute; 
+    transition: .5s all;
+    z-index: 1;
+}
+
+.contacto__texto--asunto{
+    top: 14.725rem;
+}
+
+.contacto__texto--email{
+    top: 8.125rem;
+}
+
+.contacto__texto--mensaje{
+   top: 21.325rem;
+}
+
+.contacto__texto--nombre{
+    top: 1.525rem;
+}
+
+
+
+
+

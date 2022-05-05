@@ -1,0 +1,15 @@
+.contacto{
+    background: var(--background-caqui);
+}
+
+@media screen and (min-width: 0px){
+    .contacto{
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .contacto{
+        padding: 4rem 0;
+    }
+}

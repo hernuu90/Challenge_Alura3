@@ -1,0 +1,36 @@
+.contacto__mensaje,
+.contacto__mensaje:focus{
+    background: var(--box-blanco-cinc);
+    border: none;
+    line-height: 1.25rem; 
+    padding: 2rem .75rem;
+}
+
+.contacto__mensaje{
+    border-bottom: 2px solid var(--sombra-suave);
+    border-radius: .625rem;
+    font-weight: 400;
+    outline: none;
+    z-index: 0;
+}
+
+.contacto__mensaje:focus{
+    border-bottom: 2px solid var(--marron-suave);
+    color: var(--color-oscuro);
+}
+
+.contacto__mensaje:focus + .contacto__texto--mensaje,
+.contacto__mensaje:not(:placeholder-shown) + .contacto__texto--mensaje{
+    font-size: .75rem;
+    font-weight: bold;
+    line-height: 1rem;
+    top: 20.325rem;
+}
+
+.contacto__mensaje:focus + .contacto__texto--mensaje{
+    color: var(--marron-suave);
+}
+
+.contacto__mensaje::placeholder{
+    color: transparent;
+}

@@ -1,0 +1,33 @@
+.presentacion__bloque{
+    align-content: center;
+    display: flex;
+}
+
+@media screen and (min-width: 0px){
+    .presentacion__bloque{
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .presentacion__bloque{
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between; 
+        margin: 0;
+        width: 100%; 
+    }
+}
+
+@media screen and (min-width: 922px){
+    .presentacion__bloque{
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between; 
+        margin: 5.5rem 10.56vw 0 10.56vw;
+        width: 78.88vw;
+    }
+}

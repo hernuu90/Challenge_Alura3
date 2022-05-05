@@ -1,0 +1,42 @@
+.hobby__item{
+    align-items: flex-start;
+    background-color: var(--box-blanco-cinc);
+    border-radius: .625rem;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 0px){
+    .hobby__item{
+        box-shadow: none;
+        height: 7.375rem;
+        margin: 2rem 1%;
+        width: 37.6%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .hobby__item{
+        box-shadow: none;
+        height: 7.375rem;
+        margin: 2rem 1%;
+        width: 26.4%;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .hobby__item{
+        box-shadow: 2px 2px 2px var(--sombra-suave);
+        height: 9rem;
+        padding: 1rem;
+        margin: 2rem .4vw;
+        width: 9.125rem;
+        transition: .3s;
+    }
+
+    .hobby__item:hover{
+        box-shadow: 4px 4px 4px var(--sombra-suave);
+    }
+}
